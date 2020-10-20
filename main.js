@@ -19,4 +19,3 @@ function Section1_visble() {
   var Section1 = document.getElementById("Section1");
   var Section2 = document.getElementById("Section2");
   var Section3 = document.getElementById("Section3");
-  

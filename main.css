@@ -5,6 +5,7 @@ html {
 body {
   font-family: 'Lexend Deca', sans-serif;
 }
+
 /*--- TECHNICAL SHIT ^ ---*/
 
 .Container-1 {
@@ -12,17 +13,27 @@ body {
  justify-content: space-between;
 }
 
+.Container-1 svg:hover {
+  fill: #757575;
+}
+
 #My-logo {
-  padding: 25px 0px 0px 50px;
+  padding: 20px 0px 0px 50px;
+}
+#My-logo:hover {
+  filter: invert(0.5);
 }
 #Email{
-  padding: 25px 50px 0px 0px;
+  padding: 38px 50px 0px 0px;
+}
+#Email:hover {
+  filter: invert(0.5);
 }
 
 /*--- HEADER ^ ---*/
 
 .Container-2{
-  padding: 140px 0px 240px 0px;
+  padding: 160px 0px 220px 0px;
 }
 
 #Name {
@@ -54,6 +65,9 @@ body {
   font-size: 15px;
   letter-spacing: 1.5px;
   text-align: center;
+}
+.Container-3-nav nav a:hover {
+  color: #757575;
 }
 #Slash-2 {
   padding: 0px 20px 0px 20px;
@@ -119,6 +133,10 @@ body {
   font-size: 18px;
   color: #3B3B3B;
   letter-spacing: 1.5px;
+}
+
+.Bottom-nav nav a:hover {
+  color: #757575;
 }
 
 /*--- PHOTOGRAPHY ^ ---*/

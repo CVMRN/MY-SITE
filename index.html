@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="flickity.css" rel="stylesheet" type="text/css">
 
-<!--	/*--- TECHNICAL ^ ---*/-->
+<!--/*--- TECHNICAL ^ ---*/-->
 
     <link rel="icon" type="image/png" sizes="32x32" href="GFX/Favicons/logo-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="GFX/Favicons/logo-96x96.png">
@@ -16,12 +17,13 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
 
-<!--	/*--- FONTS ^ ---*/-->
+<!--/*--- FONTS ^ ---*/-->
+
 
 </head>
 <body>
     <div class="Container-1">
-    <img id="My-logo" src="GFX/LOGO/MY-LOGO.svg" alt=""><img id="Email" src="GFX/ICONS/EMAIL.svg" alt="">
+    <a href="#"><img id="My-logo" src="GFX/LOGO/MY-LOGO.svg" alt=""></a><a href="mailto:cammarshxll@gmail.com"> <img id="Email" src="GFX/ICONS/EMAIL.svg" alt=""> </a>
     </div>
     <div class="Container-2">
         <h1 id="Name">CAMERON MARSHALL</h1>
@@ -29,10 +31,14 @@
         <h1 id="Job">DESIGNER</h1>
     </div>
     <div class="Container-3-nav">
-        <nav> <a href="#Place-1" onclick="Section1_visble()">PORTFOLIO</a><a id="Slash-2">/</a> <a href="#Place-2" onclick="Section2_visble()">PHOTOGRAPHY</a><a id="Slash-3">/</a><a href="#Place-3" onclick="Section3_visble()">ABOUT ME</a></nav>
-      </div>
+        <nav> 
+                <a href="#Place-1" onclick="Section1_visble()">PORTFOLIO</a>
+                <a id="Slash-2">/</a> <a href="#Place-2" onclick="Section2_visble()">PHOTOGRAPHY</a>
+                <a id="Slash-3">/</a><a href="#Place-3" onclick="Section3_visble()">ABOUT ME</a>
+        </nav>
+    </div>
 
-<!--	/*--- LANDING ^ ---*/-->
+<!--/*--- LANDING ^ ---*/-->
 
     <div id="Section1">
         <div id="Place-1">
@@ -40,7 +46,7 @@
         </div>
     </div>      
 
-<!--	/*--- PORTFOLIO ^ ---*/-->
+<!--/*--- PORTFOLIO ^ ---*/-->
 
     <div id="Section2">
         <div id="Place-2">
@@ -65,7 +71,7 @@
         </div>
     </div>
 
-<!--	/*--- PHOTOGRAPHY ^ ---*/-->
+<!--/*--- PHOTOGRAPHY ^ ---*/-->
 
     <div id="Section3">
         <div id="Place-3">
@@ -73,8 +79,9 @@
         </div>
     </div>
 
-<!--	/*--- ABOUT ME ^ ---*/-->
+<!--/*--- ABOUT ME ^ ---*/-->
 
 <script src="main.js"></script>
+<script src="flickity.pkgd.js"></script>
 </body>
 </html>
