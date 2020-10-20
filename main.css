@@ -3,19 +3,143 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: futura-pt, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-p {
-  font-family: futura-pt, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  color: white;
-}
-h1 {
-  font-family: futura-pt, sans-serif;
-  font-weight: 500;
-  font-style: normal;
+  font-family: 'Lexend Deca', sans-serif;
 }
 /*--- TECHNICAL SHIT ^ ---*/
+
+.Container-1 {
+ display: flex;
+ justify-content: space-between;
+}
+
+#My-logo {
+  padding: 25px 0px 0px 50px;
+}
+#Email{
+  padding: 25px 50px 0px 0px;
+}
+
+/*--- HEADER ^ ---*/
+
+.Container-2{
+  padding: 140px 0px 240px 0px;
+}
+
+#Name {
+  font-size: 28px;
+  color: #135071;
+  letter-spacing: 2px;
+  text-align: center;}
+#Slash-1 {
+  font-size: 28px;
+  color: #3B3B3B;
+  letter-spacing: 2px;
+  text-align: center;;
+}
+#Job {  
+  font-size: 28px;
+  color: #135071;
+  letter-spacing: 2px;
+  text-align: center;}
+
+/*--- LANDING ^ ---*/
+
+.Container-3-nav {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.Container-3-nav a {
+  text-decoration: none;
+  color: #3B3B3B;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+#Slash-2 {
+  padding: 0px 20px 0px 20px;
+}
+#Slash-3 {
+  padding: 0px 20px 0px 20px;
+}
+
+/*--- NAVIGATION ^ ---*/
+
+#Section1 {
+  display: none;
+}
+#Section2 {
+  display: none;
+}
+#Section3 {
+  display: none;
+}
+
+/*--- SECTION DISPLAY ^ ---*/
+
+#Dots-1 { 
+  font-size: 18px;
+  color: #135071;
+  letter-spacing: 2px;
+  text-align: center;;
+}
+
+/*--- PORTFOLIO ^ ---*/
+
+#Dots-2 { 
+  font-size: 18px;
+  color: #135071;
+  letter-spacing: 2px;
+  text-align: center;;
+}
+
+.Container-4 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0px 0px 20px;
+}
+
+.Column {
+  flex: 50%;
+  max-width: 50%;
+}
+
+.Column img {
+  vertical-align: middle;
+  width: 97%;
+  padding-bottom: 22px;
+}
+
+.Bottom-nav {
+  margin: 90px;
+  text-align: center;
+}
+
+.Bottom-nav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #3B3B3B;
+  letter-spacing: 1.5px;
+}
+
+/*--- PHOTOGRAPHY ^ ---*/
+
+#Dots-3 { 
+  font-size: 18px;
+  color: #135071;
+  letter-spacing: 2px;
+  text-align: center;;
+}
+
+/*--- ABOUT ME ^ ---*/
+
+@media screen and (max-width: 600px) {
+  .Column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .Bottom-nav {
+    display: none;
+  }
+}
+
+/*--- MEDIA QUERIES ^ ---*/

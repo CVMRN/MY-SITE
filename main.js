@@ -1,22 +1,22 @@
-function section1_visble() {
-    section1.style.display = "inline-block";
-    section2.style.display = "none";
-    section3.style.display = "none";
+function Section1_visble() {
+  Section1.style.display = "inline-block";
+  Section2.style.display = "none";
+  Section3.style.display = "none";
   }
   
-  function section2_visble() {
-    section1.style.display = "none";
-    section2.style.display = "inline-block";
-    section3.style.display = "none";
+  function Section2_visble() {
+    Section1.style.display = "none";
+    Section2.style.display = "inline-block";
+    Section3.style.display = "none";
   }
   
-  function section3_visble() {
-    section1.style.display = "none";
-    section2.style.display = "none";
-    section3.style.display = "inline-block";
+  function Section3_visble() {
+    Section1.style.display = "none";
+    Section2.style.display = "none";
+    Section3.style.display = "inline-block";
   }
   
-  var section1 = document.getElementById("section1");
-  var section2 = document.getElementById("section2");
-  var section3 = document.getElementById("section3");
+  var Section1 = document.getElementById("Section1");
+  var Section2 = document.getElementById("Section2");
+  var Section3 = document.getElementById("Section3");
   
