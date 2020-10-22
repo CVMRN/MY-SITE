@@ -199,6 +199,34 @@ body {
   opacity: 0;
 }
 
+.Self-portrait img {
+  width: 97%;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.Container-5 {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0 50px 0 ;
+  margin: 0 auto;
+}
+
+#About-me {
+  font-size: 18px;
+  color: #3b3b3b;
+  letter-spacing: 1.5px;
+  padding-right: 127px;
+}
+
+#Body-copy-2 {
+  width: 45vw;
+  font-size: 18px;
+  color: #757575;
+  letter-spacing: 0;
+}
+
 /*--- ABOUT ME ^ ---*/
 
 @media screen and (max-width: 600px) {
@@ -208,6 +236,13 @@ body {
   }
   .Bottom-nav {
     display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
   }
 }
 
