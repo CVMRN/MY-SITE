@@ -6,6 +6,10 @@ body {
   font-family: 'Lexend Deca', sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 /*--- TECHNICAL SHIT ^ ---*/
 
 .Container-1 {
@@ -20,14 +24,11 @@ body {
 #My-logo {
   padding: 20px 0px 0px 50px;
 }
-#My-logo:hover {
-  filter: invert(0.5);
-}
 #Email{
   padding: 38px 50px 0px 0px;
 }
 #Email:hover {
-  filter: invert(0.5);
+  filter: invert(0.4);
 }
 
 /*--- HEADER ^ ---*/
@@ -57,7 +58,13 @@ body {
 
 .Container-3-nav {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  padding: 6px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
 }
 .Container-3-nav a {
   text-decoration: none;
@@ -72,8 +79,14 @@ body {
 #Slash-2 {
   padding: 0px 20px 0px 20px;
 }
+#Slash-2:hover {
+  color: #3b3b3b
+}
 #Slash-3 {
   padding: 0px 20px 0px 20px;
+}
+#Slash-3:hover {
+  color: #3b3b3b;
 }
 
 /*--- NAVIGATION ^ ---*/
@@ -94,7 +107,43 @@ body {
   font-size: 18px;
   color: #135071;
   letter-spacing: 2px;
-  text-align: center;;
+  text-align: center;
+  opacity: 0;
+}
+
+.Carousel {
+  width: 98vw;
+}
+
+.Carousel-cell {
+  width: 70vw;
+  height: 600px;
+  margin-right: 20px;
+  background-color: #757575;
+  border-radius: 10px;
+  counter-increment: Carousel-cell;
+}
+
+.Container-3 {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0 50px 0 ;
+  margin: 0 auto;
+  
+}
+
+#Recent-work {
+  font-size: 18px;
+  color: #3B3B3B;
+  letter-spacing: 1.5px;
+  padding-right: 127px;
+}
+#Body-copy-1 {
+  width: 45vw;
+  font-size: 18px;
+  color: #757575;
+  letter-spacing: 0;
 }
 
 /*--- PORTFOLIO ^ ---*/
@@ -104,12 +153,13 @@ body {
   color: #135071;
   letter-spacing: 2px;
   text-align: center;;
+  opacity: 0;
 }
 
 .Container-4 {
   display: flex;
   flex-wrap: wrap;
-  padding: 50px 0px 0px 20px;
+  padding: 0px 0px 0px 20px;
 }
 
 .Column {
@@ -146,6 +196,7 @@ body {
   color: #135071;
   letter-spacing: 2px;
   text-align: center;;
+  opacity: 0;
 }
 
 /*--- ABOUT ME ^ ---*/
