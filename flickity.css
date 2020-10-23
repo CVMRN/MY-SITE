@@ -46,7 +46,7 @@ https://flickity.metafizzy.co
 
 .flickity-button {
   position: absolute;
-  background: hsla(0, 0%, 100%, 0.3);
+  background: none;
   border: none;
   color: #3b3b3b;
 }
@@ -54,11 +54,6 @@ https://flickity.metafizzy.co
 .flickity-button:hover {
   background: white;
   cursor: pointer;
-}
-
-.flickity-button:focus {
-  outline: none;
-  box-shadow: 0 0 0 5px #19F;
 }
 
 .flickity-button:active {
