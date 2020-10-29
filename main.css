@@ -174,8 +174,9 @@ body {
 }
 
 .Bottom-nav {
-  margin: 80px;
   text-align: center;
+  margin-top: 90px;
+  margin-right: 20px;
 }
 
 .Bottom-nav a {
