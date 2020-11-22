@@ -13,7 +13,7 @@ body {
 /*--- TECHNICAL SHIT ^ ---*/
 
 .Container-1 {
-  padding: 30vh 0 34vh 0;
+  padding: 32vh 0 32vh 0;
   }
 
 #My-logo {
@@ -24,7 +24,7 @@ body {
 #Name {
   font-size: 35px;
   color: #000000;
-  letter-spacing: 12px;
+  letter-spacing: 6px;
   text-align: center;
 }
 #Position {  
@@ -44,28 +44,30 @@ body {
   top: 0;
   background-color: white;
   z-index: 1;
+  /* width: 100vw; */
 }
 .Container-nav a {
   text-decoration: none;
-  color: #3B3B3B;
+  color: #000000;
   font-size: 14px;
   letter-spacing: 2px;
   text-align: center;
 }
 .Container-nav nav a:hover {
-  color: #757575;
+  color: #FF8200;
 }
 #Slash-1 {
-  padding: 0 1.5vw;
+  padding: 0 1vw;
+  color: ;
 }
 #Slash-1:hover {
-  color: #3B3B3B
+  color: #000000;
 }
 #Slash-2 {
-  padding: 0 1.5vw;
+  padding: 0 1vw;
 }
 #Slash-2:hover {
-  color: #3B3B3B;
+  color: #000000;
 }
 
 /*--- NAVIGATION ^ ---*/
@@ -104,7 +106,7 @@ body {
 }
 
 .Container-2 {
-  width: 70%;
+  width: 70vw;
   display: flex;
   justify-content: space-between;
   padding: 5vh 0 5vh 0;
@@ -150,22 +152,6 @@ body {
   vertical-align: middle;
   width: 97%;
   padding-bottom: 3vh;
-}
-
-.Bottom-nav {
-  text-align: center;
-  margin-top: 90px;
-}
-
-.Bottom-nav a {
-  text-decoration: none;
-  font-size: 18px;
-  color: #3B3B3B;
-  letter-spacing: 1.5px;
-}
-
-.Bottom-nav nav a:hover {
-  color: #757575;
 }
 
 /*--- PHOTOGRAPHY ^ ---*/
